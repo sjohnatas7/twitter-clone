@@ -1,0 +1,277 @@
+.user-config{
+    color: #556673;
+    position: absolute;
+    top: 50;
+    right: 10%;
+}
+.btn-tweet{
+    background: #1E9BF0;
+    width: 85%;
+}
+.user:hover{
+    background: #e7e7e8;
+}
+.user-foto{
+    padding: 0.5rem;
+    font-size: 1.3em;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    color: #000;
+}
+.user a {
+    text-decoration: none;
+}
+
+.user-text p{
+    font-size: 0.9em;
+    margin-bottom: 0;
+    color:#536471;
+    font-weight: normal;
+}
+.user-text h5{
+    font-size: 0.95em;
+    margin-top: 0.5rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#nav .navegacao .btn-tweet span{
+    margin-left: 0;
+    line-height: 2.1;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#nav .navegacao .btn-tweet:hover{
+    background: #1b8cd8;
+}
+.home-top{
+    z-index: -1;
+}
+.home-top h5{
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 0;
+}
+.star{
+    position: absolute;
+    right: 20px;
+}
+.postagem-conteudo{
+    margin-top: -10px;
+}
+.input-postagem input{
+    width: 100%;
+    border: none;
+    font-size: 1.3em;
+    line-height: 3.7;
+}
+.input-postagem input:focus{
+    outline: none;
+}
+
+.input-postagem input:hover{
+    outline: none;
+}
+.icon-postagem{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.4rem;
+}
+.icons{
+    color:#1E9BF0;
+    padding-left: 12%;
+    padding-bottom: 12px;
+}
+.icons button{
+    border: none;
+}
+.fa-location-dot{
+    color: #99CBF7;
+}
+.icons i{
+    padding: 9px;
+    
+}
+.icons i:hover{
+    background: #EAF4FD;
+}
+.tweet-postagem{
+    background: #99CBF7;
+    color: #fff;
+    padding: 6px 18px;
+    margin-right: 15px;
+}
+.conteudo-timeline{
+    padding-left: 3.5%;
+    display: block;
+    position: relative;
+    height: auto;
+    text-decoration: none;
+}
+.conteudo-timeline:hover{
+    background: #f7f7f7;
+}
+.conteudo-texto{
+    margin-left: 10%;
+    padding-top: 0.9rem;
+}
+.user-timeline{
+    position: absolute;
+    top: 0.7rem;
+    right: 0.5;
+    padding: 0.5rem;
+    font-size: 1.5em;
+}
+.conteudo-timeline h5{
+    z-index: 100;
+    margin-bottom: 1px;
+    margin-top: 0;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #000;
+    display: inline;
+}
+.conteudo-timeline h5:hover{
+    text-decoration: underline;
+}
+.conteudo-timeline span{
+    color: #536471;
+    font-size: 0.9em;
+    margin-left: 6px;
+    display: inline;
+}
+.conteudo-timeline p{
+    font-size: 0.9em;
+    color: #2b2f34;
+    margin-bottom: 0rem;
+    margin-top: 0.1rem;
+}
+span.time {
+    font-size: 1em;
+}
+span.time:hover {
+    text-decoration: underline;
+}
+
+.icons-conteudo{
+    color: #536471;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 18%;
+    margin-bottom: 0.7rem;
+    align-items: center;
+}
+.icons-conteudo i{
+    padding: 0.7rem;
+}
+.fa-heart:hover{
+    color: #F15381;
+    background: #f6e1eb;
+}
+.fa-arrows-rotate:hover{
+    background: #e1f0ea;
+    color: #53bb7c;
+}
+.fa-message:hover, .fa-chart-simple:hover, .fa-upload:hover{
+    background: #e3edf6;
+    color: #1e9bf0;
+}
+.heart:hover{
+    color: #F15381;
+}
+.arrows-rotate:hover{
+    color: #53bb7c;
+}
+.message:hover, .chart-simple:hover, .upload:hover{
+    color: #1e9bf0;
+}
+.heart:hover span{
+    color: #F15381;
+}
+.arrows-rotate:hover span{
+    color: #53bb7c;
+}
+.message:hover span, .chart-simple:hover span, .upload:hover span{
+    color: #1e9bf0;
+}
+.icons-conteudo span{
+    margin-left: px;
+}
+.aside-buscar{
+    display:block;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 3;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.aside-pesquisar{
+    display: flex;
+    background: #EFF3F4;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+.aside-pesquisar input{
+    background: #EFF3F4;
+    border: none;
+    margin-left: 15px;
+    line-height: 0.1;
+}
+#aside-pesquisar{
+    height: auto;
+    margin-left: 15px;
+}
+.aside-buscar input:focus{
+    outline: none;
+}
+.aside-timeline{
+    background: #F7F9F9;
+}
+
+.aside-timeline a.link-conteudo:hover{
+    background: #EFF1F1;
+}
+.aside-timeline h4{
+    margin-top: 15px;
+    padding-left: 14px;
+    font-weight: 900;
+    margin-left: 6px;
+    font-size: 1.25em;
+}
+.aside-timeline a.link-conteudo  h5{
+    font-size: 0.9em;
+}
+.aside-timeline a.link-conteudo  p{
+    font-size: 0.9em;
+}
+
+.aside-timeline a:last-child{
+    color: #1E9BF0;
+    position: sticky;
+    top: 0;
+}
+.aside-timeline a{
+    text-decoration: none;
+}
+.aside-timeline .user-foto{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.aside-timeline button{
+    border: none;
+    color: #fff;
+    background: #000;
+    margin-right: -5px;
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 0.9em;
+}
+.aside-timeline button:hover{
+    background: #272c30;
+}

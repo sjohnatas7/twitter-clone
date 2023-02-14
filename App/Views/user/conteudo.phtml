@@ -1,0 +1,25 @@
+<div class="h-100">
+<?php
+if($this->view->tweets) {foreach($this->view->tweets as $indice=>$tweet){ ?>
+<a href="" class="conteudo-timeline border-bottom border-start border-end">
+    <i class="fa-solid fa-ellipsis icon-conteudo rounded-circle"></i>
+    <i class="fa-solid fa-user user-timeline text-dark"></i>
+    <div class="conteudo-texto">
+        <h5><?= $tweet['nome']?></h5><span>@user-123 &middot; <?= $tweet['data']?></span>
+        <p><?= $tweet['tweet']?></p>
+    </div>
+    <div class="icons-conteudo">
+        <div class="chart-simple"><i class="fa-solid rounded-circle fa-chart-simple"></i><span>231</span></div>
+        <div class="message"><i class="fa-solid rounded-circle fa-message"></i><span>6</span></div>
+        <div class="arrows-rotate"><i class="fa-solid rounded-circle fa-arrows-rotate"></i><span>5000</span></div>
+        <div class="heart"><i class="fa-solid rounded-circle fa-heart"></i><span>7</span></div>
+        <div class="upload"><i class="fa-solid rounded-circle fa-upload"></i></div>
+    </div>                  
+</a>
+<?php }}else{?>
+    <div class="d-flex h-100 flex-column text-center justify-content-center border-start border-end">
+        <h5>Parece que você não segue ninguém... </h5><h5>Conheça aqui pessoas novas</h5>
+    </div>
+
+<?php }?>
+</div>

@@ -1,0 +1,64 @@
+<footer class="fixed-bottom conteiner-fluid d-flex align-items-center">
+    <div class="text-footer">
+        <h4>Não perca o que está acontecendo</h4>
+        <p>As pessoas que usam o Twitter são as primeiras a saber.</p>
+    </div>
+    <button class="btn-entrar rounded-pill">Entrar</button>
+    <button class="btn-inscrever rounded-pill">Inscrever-se</button>
+    
+    <!-- Modal -->
+</div>
+</footer>
+<div class="pop-overlay">
+    <div class="pop-content">
+        <i class="fa-solid close rounded-pill fa-xmark"></i>
+        <img src="img/twitter_logo.png" class="" height="26" alt="">
+        <div class="pop-text">
+            <form action="/autenticar" method="post">
+                <h2>Entrar no Twitter</h2>
+                <?php if(isset($_GET['erro'])&&$_GET['erro']=='entrar')echo '<small class="text-danger">Usuário não encontrado</small>' ?>
+                <div class="form-floating">
+                    <input type="text" name="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" name="senha" class="form-control" id="senha" placeholder="Password">
+                    <label for="senha">Senha</label>
+                </div>
+                <small><a href="" class="link-azul">Esqueceu a senha?</a></small>
+                <button type="submit" class="btn-pop rounded-pill">Entrar</button>
+                <small class="inscrever" >Não tem conta?<a class="link-azul">Inscrever-se</a></small>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="pop2-overlay">
+    <div class="pop2-content">
+        <i class="fa-solid close2 rounded-pill fa-xmark"></i>
+        <img src="img/twitter_logo.png" class="" height="26" alt="">
+        <div class="pop-text">
+            <form action="/registrar" method="post">
+                <h2>Criar uma conta</h2>
+                <?php if(isset($_GET['erro'])&&$_GET['erro']=='inscrever')echo '<small class="text-danger">Usuario já registrado</small>' ?>
+                <div class="form-floating">
+                    <input type="text" name="emailRegistrar" class="form-control"  placeholder="name@example.com">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" name="nomeRegistrar" class="form-control"  placeholder="Password">
+                    <label for="senha">Nome de usuario</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" name="arrobaRegistrar" class="form-control"  placeholder="Password">
+                    <label for="senha">Identificador</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" name="senhaRegistrar" class="form-control"  placeholder="Password">
+                    <label for="senha">Senha</label>
+                </div>
+                <button type="submit" class="btn-pop rounded-pill">Entrar</button>
+                <small class="inscrever" >Já tem conta? <a class="link-azul"> Login</a></small>
+            </form>
+        </div>
+    </div>
+</div>

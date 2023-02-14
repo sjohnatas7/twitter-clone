@@ -1,0 +1,49 @@
+<ul class="navbar-nav d-flex flex-column navegacao w-100">
+    <li class="nav-item">
+        <a href="/home" class="nav-link rounded-pill ativo">
+            <i class="fa-solid fa-house"></i><span class="d-xl-inline d-none" id="explorar">Home</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link rounded-pill ativo">
+            <i class="fa-sharp fa-solid fa-hashtag"></i><span class="d-xl-inline d-none" id="explorar">Explore</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link rounded-pill">
+            <i class="fa-sharp fa-solid fa-bell"></i><span class="d-xl-inline d-none" id="configuracao" >Notifications</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link rounded-pill">
+            <i class="fa-solid fa-envelope"></i><span class="d-xl-inline d-none" id="configuracao" >Messages</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link rounded-pill">
+            <i class="fa-regular fa-user"></i><span class="d-xl-inline d-none" id="configuracao" >Profile</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="" class="nav-link rounded-pill">
+        <i class="fa-solid fa-ellipsis"></i><span class="d-xl-inline d-none" id="configuracao" >More</span>
+        </a>
+    </li>
+    <li class="nav-item mt-1">
+        <a href="" class="nav-link rounded-pill d-flex justify-content-center align-items-center btn-tweet">
+        <i class="fa-solid d-xl-none d-inline text-white fa-pencil"></i><span class="d-xl-inline d-none  text-white" id="configuracao" >Tweet</span>
+        </a>
+    </li>
+    
+</ul>
+<div class="mb-2 mt-auto user rounded-pill ">
+    <a href="" class="d-flex align-items-center">
+        <div class="user-foto rounded-circle">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class=" d-flex flex-column w-auto user-text" >
+            <h5><?= $this->view->info['nome'] ?></h5>
+            <p><?= $this->view->info['arroba'] ?></p>
+        </div>
+    </a>
+</div>

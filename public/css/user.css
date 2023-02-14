@@ -1,0 +1,18 @@
+.fa-arrow-left{
+    margin-left: 20px;
+}
+.user-top{
+    margin-left: 18px;
+    height: 54px;
+}
+.user-top h5{
+    font-size: 1.2em;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.user-top p{
+    padding-left: 20px;
+    color: #5d6d79;
+    font-size: 0.8em;
+    
+}
